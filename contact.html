@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Natalia. Natalia is a front-end engineer based in Canada"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,9 +30,37 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Document</title>
+    <title>Contact Natalia Rodriguez - Natalia Rodriguez</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" tittle="Homepage">
+          <img
+            src="/images/logo.png"
+            alt="logo she codes"
+            class="logo d-none d-md-block" />
+          <img
+            src="/images/logo-small.png"
+            alt="logo she codes"
+            class="logo d-block d-md-none"
+        /></a>
+        <ul>
+          <li>
+            <a href="/" tittle="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" tittle="About Natalia">About</a>
+          </li>
+          <li>
+            <a href="/work.html" tittle="Natalia's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" tittle="Contact Natalia">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -54,5 +86,62 @@
         </p>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-none d-md-flex justify-content-between rounded-4 mb-4"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            tittle="Contact Natalia"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mb-4">
+        <a
+          href="mailto:natis.rm94@gmail.com"
+          class="email-link"
+          tittle="Email Natalia"
+          >natis.rm94@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-4">
+        <a
+          href="https://instagram.com/nataliarodmo?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+          target="_blank"
+          tittle="Instagram Profile"
+        >
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/nataliarodmo?tab=repositories"
+          target="_blank"
+          tittle="Github profile"
+        >
+          <i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/natalia-rodriguez-molano"
+          target="_blank"
+          tittle="Linkedin profile"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Natalia Rodriguez, and it is
+        <a
+          href="https://github.com/nataliarodmo/portafolio-project"
+          target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
