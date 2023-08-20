@@ -160,6 +160,9 @@ footer .social-links a:hover {
     font-size: 44px;
     line-height: 1.5;
   }
+  .hero h1 {
+    font-size: 52px;
+  }
   h2 {
     font-size: 44px;
   }
